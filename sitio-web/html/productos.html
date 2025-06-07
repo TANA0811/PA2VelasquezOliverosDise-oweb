@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos - Inversiones Pa’ Ti Pa’ Mí</title>
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="icon" href="img/favicon.ico" />
+</head>
+<body>
+  <header>
+    <nav class="menu-principal">
+  <ul>
+    <li><a href="index.html">🏠 Inicio</a></li>
+
+    <li class="dropdown">
+      <!-- Checkbox oculto para controlar el clic -->
+      <input type="checkbox" id="toggle-productos" hidden />
+      <label for="toggle-productos" class="menu-toggle">📦 Productos ▾</label>
+
+      <ul class="submenu">
+        <li><a href="productos.html#tecnologia">Tecnología</a></li>
+        <li><a href="productos.html#hogar">Hogar</a></li>
+        <li><a href="productos.html#accesorios">Accesorios</a></li>
+        <li><a href="productos.html#reflectores">Reflectores</a></li>
+        <li><a href="productos.html#ejercicio">Ejercicio</a></li>
+        <li><a href="productos.html#salud">Salud y Belleza</a></li>
+      </ul>
+    </li>
+
+    <li><a href="contacto.html">✉️ Contacto</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <main>
+    <h1>Catálogo de Productos</h1>
+    <p>Conoce algunos de los productos que ofrecemos a precios accesibles.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Categoría</th>
+          <th>Precio</th>
+          <th>Disponibilidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="tecnologia">
+          <td>Audífono Bluetooth para casco</td>
+          <td>Tecnología</td>
+          <td>S/ 55.00</td>
+          <td>En stock</td>
+        </tr>
+        <tr id="hogar">
+          <td>Máquina Eléctrica para Hacer Arepas</td>
+          <td>Hogar</td>
+          <td>S/ 95.00</td>
+          <td>En stock</td>
+        </tr>
+        <tr id="accesorios">
+          <td>Aro LED RGBW 26cm con trípode</td>
+          <td>Accesorios</td>
+          <td>S/ 25.00</td>
+          <td>Últimas unidades</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section>
+      <h2>Explora nuestras categorías</h2>
+      <img src="../img/mapa-almacen.png" usemap="#mapaProductos" alt="Mapa de productos" width="800" />
+      <map name="mapaProductos">
+        <area shape="rect" coords="0,0,200,200" href="#tecnologia" alt="Tecnología" />
+        <area shape="rect" coords="200,0,400,200" href="#hogar" alt="Hogar" />
+        <area shape="rect" coords="400,0,600,200" href="#accesorios" alt="Accesorios" />
+      </map>
+    </section>
+
+    <section>
+      <h2></h2>
+      <img src="../img/producto-pc.png" alt="Producto adaptativo" width="500" height="500"/>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Inversiones Pa’ Ti Pa’ Mí</p>
+  </footer>
+</body>
+</html>
